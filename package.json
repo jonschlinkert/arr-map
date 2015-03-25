@@ -1,7 +1,7 @@
 {
   "name": "arr-map",
   "description": "Faster, node.js focused alternative to JavaScript's native array map.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "homepage": "https://github.com/jonschlinkert/arr-map",
   "author": {
     "name": "Jon Schlinkert",
@@ -16,18 +16,21 @@
   },
   "license": {
     "type": "MIT",
-    "url": "https://github.com/jonschlinkert/arr-map/blob/master/LICENSE-MIT"
-  },
-  "main": "index.js",
-  "engines": {
-    "node": ">=0.10.0"
+    "url": "https://github.com/jonschlinkert/arr-map/blob/master/LICENSE"
   },
   "files": [
     "index.js"
   ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "scripts": {
-    "test": "mocha -R spec",
+    "test": "mocha",
     "benchmark": "node benchmark"
+  },
+  "dependencies": {
+    "make-iterator": "^0.1.1"
   },
   "devDependencies": {
     "array-map": "0.0.0",
@@ -36,8 +39,7 @@
     "chalk": "^0.5.1",
     "glob": "^4.3.5",
     "micromatch": "^1.2.2",
-    "mocha": "*",
-    "should": "*"
+    "mocha": "*"
   },
   "keywords": [
     "array",
