@@ -3,21 +3,12 @@
   "description": "Faster, node.js focused alternative to JavaScript's native array map.",
   "version": "2.0.0",
   "homepage": "https://github.com/jonschlinkert/arr-map",
-  "author": {
-    "name": "Jon Schlinkert",
-    "url": "https://github.com/jonschlinkert"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jonschlinkert/arr-map.git"
-  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/arr-map",
   "bugs": {
     "url": "https://github.com/jonschlinkert/arr-map/issues"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/jonschlinkert/arr-map/blob/master/LICENSE"
-  },
+  "license": "MIT",
   "files": [
     "index.js"
   ],
@@ -38,11 +29,34 @@
     "braces": "^1.6.0",
     "chalk": "^0.5.1",
     "glob": "^4.3.5",
+    "gulp-format-md": "^0.1.11",
     "micromatch": "^1.2.2",
     "mocha": "*"
   },
   "keywords": [
+    "arr",
     "array",
     "map"
-  ]
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "related": {
+      "list": [
+        "arr-diff",
+        "arr-filter",
+        "arr-flatten",
+        "arr-reduce"
+      ]
+    },
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
 }
