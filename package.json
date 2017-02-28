@@ -1,7 +1,7 @@
 {
   "name": "arr-map",
   "description": "Faster, node.js focused alternative to JavaScript's native array map.",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "homepage": "https://github.com/jonschlinkert/arr-map",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/arr-map",
